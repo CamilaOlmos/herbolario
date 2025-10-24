@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de Plantas Medicinales</title>
+    <!-- Enlazamos la hoja de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado --> 
+    <header>
+        <h1>Herbolario de Plantas Medicinales<br>en el municipio de San Juan</h1>
+        <img src="Imagenes/Imagen-2.png" alt="Logo del Herbolario de San Juan">   
+        <p>Descubre las propiedades y usos tradicionales de las plantas medicinales.</p> 
+    </header>
+
+    <main>
+        <!-- Sección de Navegación de Categorías -->
+        <section id="menu-categorias">
+            <h2>Categorías</h2>
+            <nav>
+                <ul>
+                    <!-- Los enlaces ahora tienen un atributo "data-target" para el JavaScript -->
+                    <li><a href="#digestivas" data-target="digestivas">Digestivas</a></li>
+                    <li><a href="#piel" data-target="piel">Para la piel</a></li>
+                    <li><a href="#antiinflamatorias" data-target="antiinflamatorias">Antiinflamatorias</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- Contenido de las Categorías -->
+        <!-- Sección Digestivas -->
+        <section id="digestivas" class="seccion-planta">
+            <h2>Plantas Digestivas</h2>
+            <article class="planta">
+                <h3>Hierba Limón o Citronela</h3>
+                <img src="Imagenes/Hierba-limon-citronela.jpeg" alt="Imagen de Hierba Limón o Citronela">
+                <p><span class="propiedad">Propiedades:</span> <strong>Sus infusiones son muy efectivas para aliviar gases, hinchazón y cólicos. Además de su función digestiva, es una gran antiinflamatoria y analgésica.</strong></p>
+            </article>
+            <article class="planta">
+                <h3>Menta</h3>
+                <img src="Imagenes/Menta.jpeg" alt="Imagen de Menta">
+                <p><span class="propiedad">Propiedades:</span> <strong>Su infusión ayuda a calmar las náuseas, la indigestión y los espasmos del estómago.</strong></p>
+            </article>
+            <article class="planta">
+                <h3>Lima</h3>
+                <img src="Imagenes/Lima.jpeg" alt="Imagen de Lima">
+                <p><span class="propiedad">Propiedades:</span> <strong>Su corteza y sus hojas tienen propiedades digestivas, aliviando la indigestión y los gases. Además, es un potente antinflamatorio, especialmente la vitamina C de su fruto. También es un relajante natural que ayuda a calmar el estrés y la ansiedad.</strong></p>
+            </article>
+            <article class="planta">
+                <h3>Boldo</h3>
+                <img src="Imagenes/Boldo.jpg" alt="Imagen de Boldo">
+                <p><span class="propiedad">Propiedades:</span> <strong>Ayuda a reducir gases intestinales, cólicos y sensación de plenitud después de las comidas.</strong></p>
+            </article>
+        </section>
+
+        <!-- Sección Para la piel -->
+        <section id="piel" class="seccion-planta">
+            <h2>Plantas para el cuidado de la piel</h2>
+            <article class="planta">
+                <h3>Sábila o Aloe Vera</h3>
+                <img src="Imagenes/Sabila-aloevera.jpeg" alt="Imagen de Aloe Vera">
+                <p><span class="propiedad">Propiedades:</span> <strong>Su gel interior es extraordinario para curar quemaduras, suavizar la piel irritada, y como humectante natural.</strong></p>
+            </article>
+            <article class="planta">
+                <h3>Yerba buena</h3>
+                <img src="Imagenes/Yerba-buena.jpg" alt="Imagen de Yerba-buena">
+                <p><span class="propiedad">Propiedades:</span> <strong>Los beneficios clave de este ingrediente son su acción antioxidante que combate el envejecimiento, su capacidad antiinflamatoria que calma irritaciones y rojeces, y sus propiedades antimicrobianas que ayudan a prevenir infecciones leves y son útiles contra el acné. Además, actúa como astringente suave para controlar la grasa y los poros, y proporciona un efecto refrescante y tonificante a la piel.</strong></p>
+            </article>
+            <article class="planta">
+                <h3>Cúrcuma</h3>
+                <img src="Imagenes/Cúrcuma.jpg" alt="Imagen de Cúrcuma">
+                <p><span class="propiedad">Propiedades:</span> <strong>Es un excelente cicatrizante que promueve la regeneración y se utiliza en remedios caseros para atenuar manchas, controlar el brillo y combatir el envejecimiento prematuro, siendo también tradicionalmente usado para aliviar quemaduras leves y eccemas.</strong></p>
+            </article>
+            <article class="planta">
+                <h3>Palta</h3>
+                <img src="Imagenes/Palta.jpg" alt="Imagen de Palta">
+                <p><span class="propiedad">Propiedades:</span> <strong>Sus grasas monoinsaturadas refuerzan la barrera de la piel, asegurando una hidratación profunda, mientras que la luteína y zeaxantina proporcionan protección adicional contra el daño solar y el envejecimiento.</strong></p>
+            </article>
+        </section>
+
+        <!-- Sección Antiinflamatorias -->
+        <section id="antiinflamatorias" class="seccion-planta">
+            <h2>Plantas Antiinflamatorias</h2>
+            <article class="planta">
+                <h3>Perejil</h3>
+                <img src="Imagenes/Perejil.jpeg" alt="Imagen de Perejil"> 
+                <p><span class="propiedad">Propiedades:</span> Se utiliza tradicionalmente para aliviar diversas molestias: se consume en infusiones para tratar la inflamación leve de las vías urinarias (sumado a su efecto diurético), se aplica en cataplasmas o se ingiere para calmar el dolor articular y muscular, y ayuda a mitigar la inflamación digestiva leve con su efecto calmante intestinal..</p>
+            </article>
+            
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2025 Herbolario Digital. Elaborado por Camila Olmo.</p>
+    </footer>
+
+    <!-- Enlazamos el script de JavaScript al final -->
+    <script src="main.js"></script>
+</body>
+</html>
