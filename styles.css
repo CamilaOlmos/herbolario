@@ -114,33 +114,3 @@ footer {
     background-color: #333;
     color: white;
 }
-
-/* =========================================== */
-/* === ESTILOS PARA DISPOSITIVOS MÓVILES === */
-/* =========================================== */
-
-/* Se aplicarán estos estilos solo si el ancho de la pantalla es de 768px o menos */
-@media (max-width: 768px) {
-    
-    /* Ajustamos el tamaño del título principal */
-    header h1 {
-        font-size: 2rem;
-    }
-
-    /* Cambiamos la dirección del menú de categorías a vertical */
-    #menu-categorias nav ul {
-        flex-direction: column; /* Apila los enlaces verticalmente */
-        gap: 1rem; /* Reducimos el espacio entre ellos */
-    }
-
-    /* Cambiamos la disposición de cada planta a vertical */
-    .planta {
-        flex-direction: column; /* Apila la imagen y el texto */
-        text-align: center; /* Centramos el texto para que se vea mejor */
-    }
-
-    .planta img {
-        max-width: 80%; /* Hacemos la imagen más grande en relación al contenedor */
-        margin-bottom: 1rem; /* Añadimos espacio debajo de la imagen */
-    }
-}
